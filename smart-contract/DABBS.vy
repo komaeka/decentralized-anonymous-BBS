@@ -4,14 +4,7 @@
 """
 @title A decentralized anonymous BBS
 @license MIT
-@author komaeka
-@dev
-    post_title The title of post
-    post_content The content of post
-    picture_hash The picture CID in IPFS
-    comment All comments in the post
-    post_position Can be understood as the post id
-    comment_position The comment position in the post
+@author Komaeka
 """
 
 struct post_struct:
