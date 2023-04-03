@@ -31,10 +31,6 @@ struct post_title_struct:
 posts: post_struct[100]
 post_sign: uint8
 
-@external
-def __init__():
-    self.post_sign = 0
-
 # publis post
 @external
 def publish_post(_post_title: String[90], _post_content: String[300], _publish_time: uint256,  _picture_hash: String[46]):
@@ -47,11 +43,11 @@ def publish_post(_post_title: String[90], _post_content: String[300], _publish_t
     self.posts[post_sign].comment = empty(DynArray[String[300], 100])
     self.posts[post_sign].comment_position = 0
     # when there are 100 posts, recompute post_sign
-    if post_sign >= 99:
+    if post_sign == 99:
         self.post_sign = 0
     else:
         self.post_sign += 1
-    
+
 # publish comment
 @external
 def publish_comment(_comment: String[300], _post_position: uint8):
