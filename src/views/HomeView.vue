@@ -107,7 +107,7 @@ a,
 .green {
   color: hsl(0deg 0% 0%);
   font-size: large;
-  padding: 3px 260px 3px 10px
+  padding: 3px 260px -1px 10px
 }
 
 ul {
