@@ -1,5 +1,4 @@
-# 基于以太坊智能合约的去中心化匿名论坛系统
-# A decentralized anonymous BBS system based on Ethereum smart contract
+# 基于以太坊智能合约的去中心化匿名论坛系统（A decentralized anonymous BBS system based on Ethereum smart contract）
 本开源项目为论文《基于以太坊智能合约的去中心化匿名论坛系统的设计与实现》的源代码，论文链接如下：https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50nau9yXZ3-eqTs28o7q0k80z_dSWTzU_nTWQnAp3ka23T1usFoFQeVS&uniplatform=NZKPT&src=copy
 ## 项目介绍
 * 本项目是一个基于以太坊平台，使用Vyper语言作为智能合约实现的匿名论坛系统
