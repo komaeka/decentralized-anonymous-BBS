@@ -4,9 +4,8 @@
 * 本项目是一个基于以太坊平台，使用Vyper语言作为智能合约实现的匿名论坛系统
 * smart-contract目录中的DABBS.vy为智能合约代码文件
 * src目录为前端代码目录
-* main分支和sepolia分支的不同之处仅为针对的测试平台不同，main分支中的前端部分会调用Ganache中的智能合约，main分支中的前端部分会调用sepolia测试链中的智能合约
 ## 启动项目
-1. 克隆项目到本地（根据需要选择main分支或者sepolia分支）
+1. 克隆项目到本地
 2. 运行`npm install`安装有关的依赖包
 3. 将DABBS.vy部署到Ganache本地测试链或者sepolia测试链
 4. 修改src/router/index.js文件中**contractAddress**字段，改为自己部署的智能合约地址
